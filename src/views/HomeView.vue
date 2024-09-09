@@ -43,8 +43,9 @@ const goUser = () => {
 
 .title {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 500;
   color: $beige-color;
+  text-shadow: 3px 3px 1px $brown-color;
 }
 
 .description {

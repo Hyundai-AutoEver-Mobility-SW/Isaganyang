@@ -2,7 +2,8 @@
   <nav class="navbar navbar-expand-md transparent-navbar">
     <div class="container">
       <img src="/src/assets/dog.png" class="m-1" alt="" />
-      <a class="navbar-brand logo" href="#"> Vue </a>
+      <!-- <a class="navbar-brand logo" href="#"> Vue </a> -->
+      <router-link class="nav-link title" to="/">이사가냥</router-link>
       <button
         class="navbar-toggler custom-toggler"
         type="button"
@@ -37,6 +38,15 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+.nav-link {
+  text-shadow: 3px 3px 1px $brown-color;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: $beige-color;
+  text-shadow: 3px 3px 1px $brown-color;
+}
 .transparent-navbar {
   position: absolute;
   top: 0;
