@@ -77,7 +77,7 @@ const addUserData = () => {
 .overlay-text {
   text-align: center;
   color: $beige-color;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
 }
 
 .title {
