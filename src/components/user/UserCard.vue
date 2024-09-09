@@ -6,7 +6,7 @@
       </div>
       <div class="user-details mb-1">
         <div class="like mb-3">
-          <div class="like-btn" @click="addLike(i)">❤️ ⬅️</div>
+          <div class="like-btn" @click="addLike(i)">❤️ ☚</div>
           <div v-for="n in likes[i]" :key="n">❤️</div>
         </div>
         <p class="detail-custom">{{ item.userid }}</p>

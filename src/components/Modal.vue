@@ -12,7 +12,7 @@
           <input
             type="text"
             class="form-control"
-            placeholder="주소를 입력하세요"
+            placeholder="주소를 입력하세요 (ex. 강남)"
             v-model="newAddr"
           />
         </div>
@@ -57,6 +57,10 @@ const updateAddr = () => {
   store.commit("setModalView", false);
   lastClickedLocation.value = mapComponent.value.getLastClickedLocation();
   console.log("마지막 마커 위치로 주소업뎃:", lastClickedLocation.value);
+  if (lastClickedLocation.value === "") {
+    alert("위치를 클릭해주세요!");
+    return;
+  }
   store.commit("setAddr", lastClickedLocation.value);
 };
 // map
