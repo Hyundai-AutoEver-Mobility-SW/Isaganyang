@@ -21,6 +21,9 @@ export default createStore({
         },
         setAddr(state, payload) { 
             state.userData[state.index].addr = payload;
+        },
+        addUserData(state, payload) {
+            state.userData.push(payload);
         }
     },
     actions: {},

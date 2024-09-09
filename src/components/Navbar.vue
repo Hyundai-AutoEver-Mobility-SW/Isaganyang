@@ -26,7 +26,7 @@
             <router-link class="nav-link" to="/mypage">MYPAGE</router-link>
           </li> -->
           <li class="nav-item">
-            <router-link class="nav-link disabled" to="/">SIGNUP</router-link>
+            <router-link class="nav-link" to="/signup">SIGNUP</router-link>
           </li>
         </ul>
       </div>
