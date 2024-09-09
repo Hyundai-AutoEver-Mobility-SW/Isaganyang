@@ -118,6 +118,7 @@ const moveAddrLocation = () => {
       }
       .current-btn {
         cursor: pointer;
+        font-size: 0.9rem;
         padding: 3px 3px;
         background-color: transparent;
         border: 2px solid $brown-color;

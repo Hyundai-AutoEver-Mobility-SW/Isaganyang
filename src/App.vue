@@ -1,7 +1,7 @@
 <template>
   <Modal v-if="$store.state.modalView" />
   <Navbar />
-  <router-view />\
+  <router-view />
 </template>
 
 <script setup>
