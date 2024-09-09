@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import UserView from '../views/UserView.vue';
 import SignUpView from '../views/SignUpView.vue';
-// import MyPageView from '../views/MyPageView.vue';
+import MyPageView from '../views/MyPageView.vue';
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -15,6 +15,11 @@ const router = createRouter({
             path: "/user",
             name: "user",
             component : UserView,
+        },
+        {
+            path: "/mypage",
+            name: "mypage",
+            component : MyPageView,
         },
         {
             path: "/signup",
