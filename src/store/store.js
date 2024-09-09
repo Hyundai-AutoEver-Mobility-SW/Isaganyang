@@ -11,7 +11,6 @@ export default createStore({
         { userid: 'dog3', password: 'dog3', username: "식빵이", addr: "성수", image: "/profile/3.jpg" },
         { userid: 'dog4', password: 'dog4', username: "크림이", addr: "잠실", image: "/profile/4.jpg" },
         { userid: 'dog5', password: 'dog5', username: "설이", addr: "옥수", image: "/profile/5.jpg" },
-        { userid: '123', password: '123', username: "123", addr: "옥수", image: "/profile/5.jpg" },
         ],
     },
     mutations: {
